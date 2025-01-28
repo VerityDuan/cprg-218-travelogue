@@ -9,10 +9,11 @@ header{
     background-color: beige;
 }
 
-.change{
-    flex-direction: column;
-}
-.img{
-    border: 1px;
+.about-container{
+    display: flex;
+    align-items: center;
 }
 
+.p{
+    background-color: white;
+}
