@@ -1,0 +1,16 @@
+body{
+    background-color: pink;
+}
+
+header{
+    font-family: cursive;
+    font-size:xx-large;
+    text-shadow: 2px 2px 4px fuchsia;
+    background-color: beige;
+}
+
+
+.img{
+    border: 1px;
+}
+
