@@ -1,3 +1,7 @@
+*{
+    box-sizing:border-box;
+}
+
 body{
     background-color: pink;
 }
@@ -7,6 +11,7 @@ header{
     font-size:xx-large;
     text-shadow: 2px 2px 4px fuchsia;
     background-color: beige;
+    text-align: center;
 }
 
 .about-container{
@@ -14,6 +19,26 @@ header{
     align-items: center;
 }
 
-.p{
-    background-color: white;
+p{
+    background-color: beige; margin: auto; margin-left: 10rem;
+    border: 6px solid black;
+    font-size: large;
+    text-align: center;
+    padding-top: 15rem;
+
+}
+
+div img{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+
+div.flex{
+    display:flex;
+    font-size: larger;
+}
+
+footer{
+    text-align: center;
 }
