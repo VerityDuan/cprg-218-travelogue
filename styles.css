@@ -9,7 +9,9 @@ header{
     background-color: beige;
 }
 
-
+.change{
+    flex-direction: column;
+}
 .img{
     border: 1px;
 }
