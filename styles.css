@@ -1,0 +1,84 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: pink;
+}
+
+header{
+    font-family: cursive;
+    font-size:xx-large;
+    text-shadow: 2px 2px 4px fuchsia;
+    background-color: #F5F5DD;
+    text-align: center;
+    border: 3px dotted;
+}
+
+p{
+    background-color: beige; margin: auto; margin-left: 10rem;
+    border: 6px solid black;
+    font-size: large;
+    text-align: center;
+}
+
+#first p, #third p{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0%;
+  
+}
+
+#first img, #third img{
+    margin-right: 10%;
+
+}
+
+
+
+
+#second img{
+    margin-left: 10%;
+}
+
+#second p{
+margin-left: 0%;
+padding-top: 10%;
+padding-bottom: 10%;
+padding-left: 10%;
+padding-right: 10%;
+margin-bottom: 0;
+margin-right: 10%;
+
+}
+div img{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+
+div.flex{
+    display:flex;
+    font-size: larger;
+}
+
+footer{
+    text-align: center;
+}
+
+h1{
+    margin-left: 10%;
+}
+
+h2{
+    margin-left: 10%;
+}
+
+#second h1, #second h2{
+    text-align: right;
+    margin-left: 10% ;
+    padding-right:10%;
+  
+}
